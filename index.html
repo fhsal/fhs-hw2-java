@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FHS - Password Generator homework #2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script type ="text/javascript">
+
+
+      var passwrd ="";
+      var upcase = confirm("Do you want to use upper case letters?");
+      var lowcase = confirm("Do you want to use lower case letters?");
+      var numtype = confirm("you want to use numeric entries?");
+      var symtype = confirm("Do you want to use Symbols?");
+
+      var upchar = ["A", "B", "C", "D"];
+      var lowchar = ["a", "b", "c", "d"];
+      var numchar = ["1", "2", "3", "4", "5", "6"];
+      var symchar = ["#", "@", "/", "*", "!", "$"];
+
+      var allchars = [];
+
+      if (upcase=true) {allchars.concat(upchar)};
+      if (lowcase=true) {allchars.concat(lowchar)};
+      if (numtype=true) {allchars.concat(upchar)};
+      if (symtype=true) {allchars.concat(upchar)};
+
+
+      // <!-- // Prompt for password length -->
+
+
+      var passlength = parsInt((prompt("how long to you want your password to be?");
+
+      for(var i=0; i < passlength; i++) {
+      var j = Math.floor(Math.random() * allchars.length);
+      passwrd = passwrd + allchars[j];
+
+      console.log(passwrd)
+
+      }
+
+      document.getElementById("output").innerHTML = passwrd;
+
+    </script>
+
+
+  
+    <script>
+
+      //     <!-- // alternative button click function
+
+      // <button onclick="myFunction()">Click me</button>
+
+      // <p id="demo"></p>
+      
+      // <script>
+      // function myFunction() {
+      //   document.getElementById("demo").innerHTML = "Hello World";
+      // }
+
+    </script>
+ 
+
+
+      
+
+
+
+
+
+
+
+
+    <div class="wrapper">
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+        </div>
+
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder=pwd
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn">Generate Password</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
