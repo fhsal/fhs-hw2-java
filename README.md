@@ -1,2 +1,2 @@
-# fhs-hw2-java
-2nd homework assignment - password generator
+# fhs-h32-java
+3rd homework assignment - password generator
