@@ -68,7 +68,7 @@
             "style",
             "background-color: blue");
 
-    generateBtn.innerHTML= "congratulations!";;
+    generateBtn.innerHTML= "Here's your new password!";;
 }
 
 // defining the generateBtn element 

@@ -14,7 +14,7 @@ Updated script.js with the following:
 >> populate a target array using random numbers to select from the source arrays that match user input
 >> use var "paswrd" to capture generated password 
 >> set html in document element within the Index.html to contain generated password
->> change the color of the background for the password and the color and contents of the button to say "congratulations!" 
+>> change the color of the background for the password and the color and contents of the button to say "Here's your new password!" 
 >> drive the function based upon the event listener for click on the generate password button on the Index.html page via the ID "generate" 
 
 Updated css file to center and add padding to the card-body element where the generated password is displayed 
