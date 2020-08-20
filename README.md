@@ -24,4 +24,4 @@ Updated the Index.html file with the following:
 > added the id "passwrd-display" to the card-body so the generated password could be put there
 > use the "generate" element in the js file to identify the listener
 > linked the script file
-
+   
