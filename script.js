@@ -61,7 +61,7 @@
 // inserting the new password into the element for display and changing some of the colors so it "pops"
 
     document.getElementById("passwrd-display").innerHTML = passwrd;
-    document.getElementById("passwrd-display").setAttribute ("style" ,
+    document.getElementById("card-body").setAttribute ("style" ,
                         "background-color:lightgoldenrodyellow");
 
         event.currentTarget.setAttribute(
