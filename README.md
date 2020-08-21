@@ -17,7 +17,7 @@ Updated script.js with the following:
 * change the color of the background for the password and the color and contents of the button to say "Here's your new password!" 
 * drive the function based upon the event listener for click on the generate password button on the Index.html page via the ID "generate" 
 
-Updated css file to center and add padding to the card-body element where the generated password is displayed 
+Updated css file to center, add padding and word-wrap very long text to the card-body element where the generated password is displayed 
 
 Updated the Index.html file with the following:
 
